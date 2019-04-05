@@ -1,0 +1,291 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Samples for "Unsupervised Singing Voice Conversion"</title>
+    <style type="text/css">
+body, input, select, td, li, div, textarea, p {
+	font-size: 11px;
+	line-height: 16px;
+	font-family: verdana, arial, sans-serif;
+}
+
+body {
+	margin:5px;
+	background-color:white;
+}
+
+h1 {
+	font-size:16px;
+	font-weight:bold;
+}
+
+h2 {
+	font-size:14px;
+	font-weight:bold;
+}
+    </style>
+  </head>
+
+  <body>
+    <h1 align="center">Samples for "Unsupervised Singing Voice Conversion"</h1>
+    <h2>Introduction</h2>
+    <p> We present supplementary audio samples that were generated using the proposed method.
+        These samples transfer singing voices, from NUS dataset. We present below the ground truth
+        as well as the convert songs generated for this each singer.</p>
+        <!-- These samples transfer voices, unseen during training and the same VCTK85 trained model was used to
+        fit all voices. For each dataset used in the paper, we present below the ground truth
+        (unseen during both training and fitting) as well as the sample generated for the same text
+        as the ground truth. </p> -->
+
+    <!-- <p> Note that the fitting occured on a different sample of the same speaker. The obtained embedding,
+        coupled with the text of the new sample were used after the fitting step to generate it. </p> -->
+
+        <h2>NUS Dataset (Male) ground truth:</h2>
+        <table>
+          <tr>
+            <th>  <br> </th>
+            <th>JLEE</th>
+            <th>JTAN</th>
+            <th>VKOW</th>
+            <th>SAMF</th>
+            <th>KENN</th>
+            <th>ZHIY</th>
+          </tr>
+          <tr>
+
+            <td> </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/male/JLEE/JLEE_11.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/male/JTAN/JTAN_20.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/male/VKOW/VKOW_20.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/male/SAMF/SAMF_18.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/male/KENN/KENN_10.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/male/ZHIY/ZHIY_03.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+          </tr>
+        </table>
+
+        <table>
+          <h2>NUS Dataset (Male) conversion (or reconstruction for the same singer):</h2>
+          <tr>
+            <td>
+              <h2>Original singer - JLEE</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_male_1.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+          <tr>
+            <td>
+              <h2>Original singer - JTAN</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_male_2.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - VKOW</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_male_3.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - SAMF</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_male_4.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - KENN</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_male_5.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - ZHIY</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_male_6.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+        </table>
+
+        <p>
+
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+
+        </p>
+
+        <h2>NUS Dataset (Female) ground truth:</h2>
+        <table>
+          <tr>
+            <th>  <br> </th>
+            <th>NJAT</th>
+            <th>MCUR</th>
+            <th>PMAR</th>
+            <th>ADIZ</th>
+            <th>MPOL</th>
+            <th>MPUR</th>
+          </tr>
+          <tr>
+            <td> </td>
+            <!-- <td rowspan="8">
+              <audio controls style="width: 150px;">
+                <source src="./vctk/gt/p267_008.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td> -->
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/female/NJAT/NJAT_15.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/female/MCUR/MCUR_10.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/female/PMAR/PMAR_05.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/female/ADIZ/ADIZ_13.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/female/MPOL/MPOL_20.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+            <td>
+              <audio controls style="width: 220px;">
+                <source src="./singing/nus/female/MPUR/MPUR_03.wav" type="audio/wav">
+                Your browser does not support the audio element.
+              </audio>
+            </td>
+          </tr>
+        </table>
+
+        <table>
+          <h2>NUS Dataset (Female) conversion (or reconstruction for the same singer):</h2>
+          <tr>
+            <td>
+              <h2>Original singer - NJAT</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_female_1.html" style="height:70px;width:825px" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - MCUR</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_female_2.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - PMAR</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_female_3.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - ADIZ</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_female_4.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - MPOL</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_female_5.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+
+
+          <tr>
+            <td>
+              <h2>Original singer - MPUR</h2>
+            <td>
+            <td>
+                <iframe src="./bar/nus_female_6.html" style="height:70px;width:825px;" frameBorder="0"></iframe>
+            <td>
+          </tr>
+        </table>
+
+
+
+</body>
+</html>
